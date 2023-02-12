@@ -1,1 +1,0 @@
-https://www.kaggle.com/louise2001/survival-analysis-synthetic-data?select=survival_data.csv
