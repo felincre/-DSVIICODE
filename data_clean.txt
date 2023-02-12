@@ -1,0 +1,4 @@
+When the IPYNB is executed, the cleaned data will be saved in a specified folder in compressed gz format. 
+The DaskDataFrame will perform npartitions on the pandas dataframe, and the number of partitions will depend on the specified number of chunks and the size of the dataset. 
+However, the number of partitions may also be influenced by the amount of available RAM on the local machine. 
+In this particular case, the DaskDataFrame created 91 partitions.
